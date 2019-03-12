@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    color: white
 }
 
 .plinko {
@@ -14,6 +15,7 @@
 .banner {
     width: 100%;
     position: absolute;
+    /* z-index: -1; */
 }
 
 .fade {
@@ -28,6 +30,14 @@
     flex-direction: column;
     align-items: center;
     background-image: url("images/banner+steps+texts/bg.jpg");
+}
+
+#optin {
+    margin: 40px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
 }
 
 .flow {
@@ -45,23 +55,111 @@
     justify-content: space-around;
 }
 
-.flow>div> div>img {
+.flow>div:active {
+    border: 2px solid green
+}
 
+.flow>div :first-child {
+    transform: scale(0.5)
+}
+
+.flow>div>div>img {
     width: 70px;
     height: 70px;
 }
 
 .terms {
     display: flex;
-
+    color: #5f6468;
 }
 
 .terms>div {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin: 10px;
     background-color: #282e37;
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+.terms>div:hover {
+    background-color: #1ebc55;
+    color: black;
+
+}
+
+.terms>div>div {
+    display: flex;
+      height: 100%;
+}
+
+.terms>div>div>p {
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+.participate {
+    background-image: url("images/terms/1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.participate:hover {
+    background-image: url("images/terms/11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.promotionalPeoriod {
+    background-image: url("images/terms/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.promotionalPeoriod:hover {
+    background-image: url("images/terms/22.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.promotion {
+    background-image: url("images/terms/3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.accumulapromotionte:hover {
+    background-image: url("images/terms/33.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accumulate {
+    background-image: url("images/terms/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.accumulate:hover {
+    background-image: url("images/terms/44.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.others {
+    background-image: url("images/terms/5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.others:hover {
+    background-image: url("images/terms/55.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
