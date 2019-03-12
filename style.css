@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.plinko {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e2326;
+
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+}
+
+.fade {
+    width: 100%;
+    margin-top: 180px;
+    position: relative;
+}
+
+.plinko--header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/banner+steps+texts/bg.jpg");
+}
+
+.flow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flow>div {
+    height: 100px;
+    width: 250px;
+    background-color: #282e37;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flow>div> div>img {
+
+    width: 70px;
+    height: 70px;
+}
+
+.terms {
+    display: flex;
+
+}
+
+.terms>div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: #282e37;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
