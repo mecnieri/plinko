@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white
+}
+
+.plinko {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e2326;
+
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+ }
+
+.fade >img {
+    width: 100%;
+    bottom: 10px;
+    position: absolute;
+}
+
+.plinko--header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/banner+steps+texts/bg.jpg");
+}
+
+#optin {
+    margin: 40px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
+}
+

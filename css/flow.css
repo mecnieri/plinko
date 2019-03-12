@@ -1,0 +1,28 @@
+
+.flow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flow>div {
+    height: 100px;
+    width: 250px;
+    background-color: #282e37;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flow>div:active {
+    border: 2px solid green
+}
+
+.flow>div :first-child {
+    transform: scale(0.5)
+}
+
+.flow>div>div>img {
+    width: 70px;
+    height: 70px;
+}
