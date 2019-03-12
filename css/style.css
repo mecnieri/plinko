@@ -11,19 +11,48 @@
     background-color: #1e2326;
 
 }
-
-.banner {
+.plinko-banner >div{
     width: 100%;
     position: relative;
+    /* background-image: url("images/banner+steps+texts/banner.jpg") */
+
+}
+.banner {
+    width: 100%;
+
  }
 
-.fade >img {
+.fadeDiv {
     width: 100%;
-    bottom: 10px;
+    bottom: 0px;
+    position: absolute;
+ }
+.fade{
+    width: 100%;
+    bottom: 0;
+    position: relative;
+
+}
+
+
+.text1{
     position: absolute;
 }
 
-.plinko--header {
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plinko--main {
     width: 100%;
     display: flex;
     flex-direction: column;
